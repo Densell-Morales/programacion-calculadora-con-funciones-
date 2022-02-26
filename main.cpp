@@ -60,6 +60,20 @@ int main()
             cout << num1 << " * " << num2 << " = " << num1 * num2;
             break;
 
+        case 4:
+
+            printf("Ingrese el primer numero:");
+            cin >> (num1);
+            printf("Ingrese el segundo numero: ");
+            cin >> (num2);
+
+
+            cout << num1 << " / " << num2 << " = " << num1 / num2;
+            break;
+
+
+        case 5:
+            printf("Usted salio de la calculadora!");
     }
 
     return 0;
