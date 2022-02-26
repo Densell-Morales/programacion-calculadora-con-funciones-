@@ -40,6 +40,15 @@ int main()
             cout << num1 << " + " << num2 << " = " << num1 + num2;
             break;
 
+        case 2:
+
+            printf("Ingrese el primer numero:");
+            cin >> (num1);
+            printf("Ingrese el segundo numero: ");
+            cin >> (num2);
+
+            cout << num1 << " - " << num2 << " = " << num1 - num2;
+            break;
 
     }
 
